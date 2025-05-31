@@ -1,0 +1,39 @@
+img{
+    width: 40px;
+    height: 30px;
+}
+
+h1{
+    font-size: 26pt;
+    /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+    font-family: 'Minecraft';
+    font-weight: 600;
+    /* color: #252333; */
+    color: white;
+    margin-top: 48px;
+}
+
+#logo{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.nav{
+    display: flex;
+    align-items: center;
+
+    width: 100vw;
+    height: 64px;
+
+    padding: 0 32px;
+    gap: 8px;
+
+    background-color: #FAFAFA00;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    box-shadow: 1px 1px 10px #000000;
+}
