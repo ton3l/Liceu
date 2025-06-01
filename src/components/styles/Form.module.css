@@ -1,0 +1,14 @@
+h2{
+    font-family: 'Inter';
+    color: var(--neutral);
+    font-weight: 500;
+    font-size: 32pt;
+    margin: 0;
+}
+
+.paper{
+    padding: 12px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}

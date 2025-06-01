@@ -5,10 +5,8 @@ img{
 
 h1{
     font-size: 26pt;
-    /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
     font-family: 'Minecraft';
     font-weight: 600;
-    /* color: #252333; */
     color: white;
     margin-top: 48px;
 }
