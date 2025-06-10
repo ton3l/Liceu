@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Liceu/static/css/main.54d6489b.css",
+    "main.css": "/Liceu/static/css/main.a07eae27.css",
     "main.js": "/Liceu/static/js/main.02d96e22.js",
     "static/js/453.e11daa5c.chunk.js": "/Liceu/static/js/453.e11daa5c.chunk.js",
     "static/media/background.png": "/Liceu/static/media/background.7325b56927ea4f9c90de.png",
@@ -10,12 +10,12 @@
     "static/media/DINNextRoundedLTW01Regular.ttf": "/Liceu/static/media/DINNextRoundedLTW01Regular.498b521338ff1836a432.ttf",
     "static/media/Minecraftia-Regular.ttf": "/Liceu/static/media/Minecraftia-Regular.69fd3db14fbc8b3f7cdb.ttf",
     "index.html": "/Liceu/index.html",
-    "main.54d6489b.css.map": "/Liceu/static/css/main.54d6489b.css.map",
+    "main.a07eae27.css.map": "/Liceu/static/css/main.a07eae27.css.map",
     "main.02d96e22.js.map": "/Liceu/static/js/main.02d96e22.js.map",
     "453.e11daa5c.chunk.js.map": "/Liceu/static/js/453.e11daa5c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.54d6489b.css",
+    "static/css/main.a07eae27.css",
     "static/js/main.02d96e22.js"
   ]
 }
