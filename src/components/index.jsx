@@ -5,19 +5,18 @@ import Form from './Form';
 import Nav from './Nav';
 
 function App() {
-    const [user, setUser] = useState('');
-    const [passw, setPassw] = useState('');
-    const [list, setList] = useState([]);
+    
+    const [usersList, setUsersList] = useState([]);
 
     return (
         <div className={styles.app}>
             <Nav />
 
             <Form 
-                formState={{ user, setUser, passw, setPassw, list, setList }} 
+                listState={{ usersList, setUsersList }} 
             />
 
-            <Table list={list} />
+            <Table usersListState={{ usersList, setUsersList }} />
         </div>
     );
 }

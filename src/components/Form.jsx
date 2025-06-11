@@ -2,12 +2,15 @@ import TextField from '@mui/material/TextField';
 import styles from './styles/Form.module.css';
 import Button from '@mui/material/Button';
 import Paper from '@mui/material/Paper';
+import { useState } from 'react';
 
-function Form({ formState }) {
-    const { user, setUser, passw, setPassw, list, setList } = formState;
+function Form({ listState }) {
+    const [user, setUser] = useState('');
+    const [passw, setPassw] = useState('');
+    const { usersList, setUsersList } = listState;
     
     function submit(){
-        setList([...list, {user, passw}]);
+        setUsersList([...usersList, {user, passw}]);
         setUser('');
         setPassw('');
     }
