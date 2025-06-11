@@ -28,11 +28,11 @@ function TBody({ usersList }) {
                         </TableCell>
 
                         <TableCell className={styles.cell} align="center">
-                            item.user
+                            {item.user}
                         </TableCell>
 
                         <TableCell className={styles.cell} align="center">
-                                item.passw
+                            {item.passw}
                         </TableCell>
                     </TableRow>
                 ))
@@ -42,19 +42,12 @@ function TBody({ usersList }) {
 }
 
 function Table({ usersListState }) {
-    const { usersList, setUsersList } = usersListState;
-    const [edit, setEdit] = useState(Array(usersList.length).fill(true));
-
-    // Se o tamanho da lista mudar, sincronize o estado:
-    useEffect(() => {
-        setEdit(Array(usersList.length).fill(true));
-    }, [usersList.length]);
-
+    const { usersList } = usersListState;
     return (
         <TableContainer component={Paper} elevation={3} className={styles.tableContainer}>
             <MaterialTable>
                 <THead />
-                <TBody usersUpdateState={ setUsersList } />
+                <TBody usersList={ usersList } />
             </MaterialTable>
         </TableContainer>
     );

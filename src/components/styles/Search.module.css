@@ -1,0 +1,13 @@
+.paper{
+    padding: 12px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 24px;
+    gap: 16px;
+}
+
+.buttons{
+    display: flex;
+    gap: 8px;
+    justify-content: space-between;
+}
