@@ -3,13 +3,10 @@ import styles from './styles/Form.module.css';
 import Button from '@mui/material/Button';
 import Paper from '@mui/material/Paper';
 
-function Form({ formState }) {
-    const { user, setUser, passw, setPassw, list, setList } = formState;
+function Form() {
     
     function submit(){
-        setList([...list, {user, passw}]);
-        setUser('');
-        setPassw('');
+        
     }
 
     return (
@@ -18,19 +15,9 @@ function Form({ formState }) {
 
             <TextField 
                 variant="outlined" 
-                label="Usuario" 
+                label="Pesquise" 
                 color="secondary"
-                value={user}
-                onChange={event => setUser(event.target.value)}
-            />
-
-            <TextField 
-                variant="outlined"
-                label="Senha" 
-                type="password" 
-                color="secondary" 
-                value={passw}
-                onChange={event => setPassw(event.target.value)} 
+                // onChange={event => setUser(event.target.value)}
             />
 
             <Button 
