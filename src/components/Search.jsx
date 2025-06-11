@@ -11,11 +11,11 @@ function Form() {
 
     return (
         <Paper className={styles.paper} elevation={3}>
-            <h2>Cadastre-se</h2>
+            <h2>Pesquisar</h2>
 
             <TextField 
                 variant="outlined" 
-                label="Pesquise" 
+                label="Usuário" 
                 color="secondary"
                 // onChange={event => setUser(event.target.value)}
             />
@@ -23,7 +23,7 @@ function Form() {
             <Button 
                 className={styles.button} 
                 variant="contained" 
-                color="primary" 
+                color="secondary" 
                 onClick={submit} 
             >
                 Enviar
